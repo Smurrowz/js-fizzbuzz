@@ -1,0 +1,50 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+body{
+  background-color: cadetblue;
+}
+.container{
+  margin: 0 auto;
+  max-width: 1200px;
+  text-align: center;
+}
+
+.griglia{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  gap: 20px;
+  
+}
+
+.cell{
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  aspect-ratio: 1;
+}
+
+.fizz{
+  background-color: red;
+  color: rgb(49, 39, 81);
+}
+
+.buzz{
+  background-color: green;
+  color: rgb(213, 94, 25);
+}
+
+.fizzbuzz{
+  background-color: blue;
+  color: rgb(27, 227, 90);
+}
+
+.regular-number{
+  background-color: rgb(58, 58, 58);
+  color: white;
+}
